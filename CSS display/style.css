@@ -1,0 +1,32 @@
+/* cant set height and width of inline */
+h2{
+    display:inline;
+    background-color: orange;
+}
+
+/* can put height and width of block */
+p{
+    display:block;
+    background-color: brown;
+}
+
+.A{
+    display:inline-block;
+    width:200px;
+    height:200px;
+    background-color: forestgreen;
+}
+
+.B{
+    display:inline-block;
+    width:100px;
+    height:20px;
+    background-color: forestgreen;
+}
+
+/* Setting Width and height */
+.C{
+display: block;
+width:200px;
+background-color: darkgoldenrod;
+}
