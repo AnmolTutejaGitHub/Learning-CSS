@@ -1,0 +1,35 @@
+<!-- Apply CSS to center-align a div element both horizontally and vertically on a webpage. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center a div</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .centered-div {
+            width: 300px;
+            height: 200px;
+            background-color: #f0f0f0;
+            text-align: center;
+            line-height: 200px;
+            font-size: 18px;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="centered-div">
+        <p>This is a centered div.</p>
+    </div>
+</body>
+</html>
