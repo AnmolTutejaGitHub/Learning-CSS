@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <form>
+            <!-- Add your survey questions and input fields here -->
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" required><br><br>
+
+            <label for="hobbies">Hobbies (List up to three):</label>
+            <input type="text" id="hobbies" name="hobbies1" required>
+            <input type="text" id="hobbies" name="hobbies2">
+            <input type="text" id="hobbies" name="hobbies3"><br><br>
+
+            <!-- Add more survey questions here -->
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
