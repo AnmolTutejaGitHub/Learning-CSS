@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Tutorial - Types of CSS</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <button onclick="toggleModal()">☰ CSS Tutorials</button>
+    <h1>CSS Tutorials</h1>
+    <h2>Types of CSS</h2>
+    <p>CSS (Cascading Style Sheets) comes in three types:</p>
+    <ul>
+      <li>Inline CSS</li>
+      <li>Internal CSS</li>
+      <li>External CSS</li>
+    </ul>
+
+    <p>
+      Inline CSS  :
+      Inline CSS involves directly applying styles to individual HTML elements using the style attribute within the HTML tag. 
+      This style is specified directly within the HTML element and overrides any external or internal styles affecting the same element.
+    
+    </p>
+      <br>
+      <p>
+        Internal CSS:
+        Internal CSS involves placing CSS rules within the &lt;style&gt; element within the &lt;head&gt; section of an HTML document. 
+        The CSS rules defined in this section apply to the HTML elements within the same document.
+    </p>
+    <p>
+      External CSS :
+      External CSS involves creating a separate CSS file with .css extension and linking it to the HTML document using the &lt;link&gt; element within the &lt;head&gt; section. 
+      The CSS rules defined in this external file apply to the HTML elements throughout the entire website or the specified pages.
+  </p>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="toggleModal()">&times;</span>
+      <p><a href='./CSS tutorial webpage /CSS Simplicity.html'>What is CSS simplicity</a></p>
+      <p><a href='./CSS tutorial webpage /benefits of using CSS.html'>Benefits of using CSS</a></p>
+      <p><a href='./CSS tutorial webpage /changing css to change the font size of all of the headings on a web page.html'>changing css to change the font size of all of the headings on a web page</a></p>
+      <p><a href="./CSS tutorial webpage /How can you use CSS to change the background color of a specific 'div' element.html">How can you use CSS to change the background color of a specific 'div' element.html</a></p>
+      <p><a href="./CSS tutorial webpage /CSS to create a two column layout.html">CSS to create a two column layout</a></p>
+      <p><a href="./CSS tutorial webpage /How can you use CSS to hide an element from view.html">How can you use CSS to hide an element from view</a></p>
+      <p><a href="./CSS tutorial webpage /How can you use CSS to make a web page more accessible to users with disabilities.html">How can you use CSS to make a web page more accessible to users with disabilities</a></p>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body> 
+</html>
+
+
+

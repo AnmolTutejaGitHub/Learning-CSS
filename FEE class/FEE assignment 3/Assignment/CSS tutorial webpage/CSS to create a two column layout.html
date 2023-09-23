@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>How can you use CSS to create a two-column layout?</h1>
+
+  <p>To create a two-column layout using CSS, you can use the CSS Flexbox layout. Flexbox allows you to easily create a flexible layout with two columns. Here's a step-by-step example:</p>
+
+  <h2>Create a CSS Rule for the Container:</h2>
+  <code>
+    &lt;style&gt;
+    .container {
+      display: flex;
+    }
+    &lt;/style&gt;
+  </code>
+
+  <h2>Create CSS Rules for the Columns:</h2>
+  <code>
+    &lt;style&gt;
+    .column {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin: 10px;
+    }
+    &lt;/style&gt;
+  </code>
+
+  <h2>Define HTML Structure for Two Columns:</h2>
+  <code>
+    &lt;div class="container"&gt;
+      &lt;div class="column"&gt;
+        Content for the first column.
+      &lt;/div&gt;
+      &lt;div class="column"&gt;
+        Content for the second column.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  </code>
+
+  <p>The CSS rules for the container and columns use Flexbox to create a two-column layout. Adjust padding, border, and margin as needed for your design.</p>
+</body>
+</html>

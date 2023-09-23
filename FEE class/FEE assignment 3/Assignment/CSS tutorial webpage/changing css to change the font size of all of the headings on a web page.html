@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Font Size of Headings with CSS</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>How can you use CSS to change the font size of all of the headings on a web page?</h1>
+
+  <p>To change the font size of all headings on a web page using CSS, you can target the HTML heading elements (e.g., &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;) and set the desired font size using the font-size property. Here's a step-by-step example:</p>
+
+  <h2>Create a CSS Rule:</h2>
+  <code>
+    &lt;style&gt;
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 20px; 
+    }
+    &lt;/style&gt;
+  </code>
+
+  <h2>Link CSS to Your HTML:</h2>
+  <code>
+    &lt;head&gt;
+      &lt;link rel="stylesheet" href="styles.css"&gt;
+    &lt;/head&gt;
+  </code>
+
+  <h2>Define Heading Elements in HTML:</h2>
+  <code>
+    &lt;h1&gt;This is a heading 1&lt;/h1&gt;
+    &lt;h2&gt;This is a heading 2&lt;/h2&gt;
+    &lt;h3&gt;This is a heading 3&lt;/h3&gt;
+    &lt;h4&gt;This is a heading 4&lt;/h4&gt;
+    &lt;h5&gt;This is a heading 5&lt;/h5&gt;
+    &lt;h6&gt;This is a heading 6&lt;/h6&gt;
+  </code>
+
+  <p>The font-size specified in the CSS rule will be applied to all headings.</p>
+  <p>Adjust the font-size value in the CSS rule to achieve the desired font size for all heading elements.</p>
+</body>
+</html>

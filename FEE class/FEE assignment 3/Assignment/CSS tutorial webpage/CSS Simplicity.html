@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Simplicity</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<center><h1>CSS Simplicity</h1></center>
+<p>CSS specificity is a set of rules that determine which styles should be applied to an HTML element when multiple conflicting style rules are targeting the same element. It's a way to decide which style declaration should take precedence when there's a conflict.
+    CSS specificity is calculated based on the selectors used in a CSS rule. Different types of selectors have different levels of specificity, and the more specific a selector is, the higher its specificity value. When two or more rules apply to the same element, the browser uses the rule with the highest specificity to determine the final style.
+    The specificity of a CSS rule is typically represented by four values:
+    Inline styles: Styles applied directly to an HTML element using the style attribute. This has the highest specificity.
+    ID selectors: Selectors targeting an HTML element by its ID attribute (e.g., #myElement). These have a higher specificity than classes or element selectors.
+    Class selectors, attribute selectors, and pseudo-classes: Selectors targeting elements by class (e.g., .myClass), attribute (e.g., [type="text"]), or pseudo-classes (e.g., :hover). These have a medium level of specificity.
+    Element selectors: Selectors targeting HTML elements directly (e.g., div, p, etc.). These have the lowest specificity.
+   here specificity values are equal (e.g., two rules with the same number of ID selectors), the last rule encountered in the CSS will take precedence.
+    It's important to understand CSS specificity to ensure that styles are applied as intended and to avoid unexpected behavior caused by conflicting styles.</p>
+<body>
+    
+</body>
+</html>
